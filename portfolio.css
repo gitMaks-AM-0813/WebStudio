@@ -1,0 +1,36 @@
+.span{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+  }
+  :root {
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --title-color: #FFFFFF;
+    --desk-color: #757575;
+    --color: #212121;
+    --background-color1: #F5F4FA;
+    --background-color: #2F303A;
+    --main-font: "Raleway" , "sans-serif";
+    --second-font: "Roboto" , "sans-serif";
+}
+body {
+ 
+  color: #757575;
+  background-color: #FFFFFF;
+ font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.portofolio-item{
+  flex-basis: calc((100% - 60px ) / 3);
+
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
