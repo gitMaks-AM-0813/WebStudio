@@ -53,17 +53,17 @@
   gap: 244px;
 }
 
-.header-right-side{
+.header-cover{
   display: flex;
   align-items: center;
 }
 
-.header-list{
+.header-list-two{
   display: flex;
   gap: 50px;
 }
 
-.nav-list{
+.header-list-one{
   display: flex;
   gap: 50px;
   margin-left: 93px;
@@ -81,7 +81,7 @@
   color: var(--accent-color);
 }
 
-.nav-link{
+.header-link{
   color: var(--logo-color);
   font-family: var(--font-family);
   font-weight: 500;
@@ -89,7 +89,7 @@
   text-decoration: none;
 }
 
-.nav-link:hover{
+.header-link:hover{
   color: var(--accent-color);
 }
 

@@ -61,17 +61,17 @@ ul{
   gap: 244px;
 }
 
-.header-right-side{
+.header-cover{
   display: flex;
   align-items: center;
 }
 
-.header-list{
+.header-list-two{
   display: flex;
   gap: 50px;
 }
 
-.nav-list{
+.header-list-one{
   display: flex;
   gap: 50px;
   margin-left: 93px;
@@ -88,14 +88,14 @@ ul{
   color: var(--logo-span);
 }
 
-.nav-link{
+.header-link{
   color: var(--primary-title);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
 }
 
-.nav-link:hover{
+.header-link:hover{
   color: var(--hover-link);
 }
 
@@ -122,7 +122,7 @@ ul{
   align-items: center;
 }
 
-.projects-nav-list{
+.projects-filter{
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
@@ -222,4 +222,5 @@ ul{
   font-weight: 400;
   font-size: 14px;
 }
+
  
