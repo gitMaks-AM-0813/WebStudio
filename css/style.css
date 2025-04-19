@@ -107,7 +107,7 @@
 .hero {
     padding-top: 200px;
     padding-bottom: 280px;
-   background-image: url("./images/team.jpg");
+   background-image: url("/images/team.jpg");
    background-repeat: no-repeat;
 width: 2000px;
 margin-left: 100px;
@@ -163,7 +163,7 @@ margin-bottom: 10px;
 }
 .details-title::before{
   content: "";
-background-image: url("./images/antena.jpg"), url("./images/clock.jpg");
+background-image: url("/images/antena.jpg"), url("/images/clock.jpg");
 display: inline-block;
 width: 270px;
 height: 120px;
