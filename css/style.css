@@ -107,7 +107,10 @@
 .hero {
     padding-top: 200px;
     padding-bottom: 280px;
-   background-color: var(--background-color);
+   background-image: url("/images/team.jpg");
+   background-repeat: no-repeat;
+width: 2000px;
+margin-left: 100px;
 }
 .hero-title{
   color: var(--title-color);
@@ -157,6 +160,14 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 margin-bottom: 10px;
+}
+.details-title::before{
+  content: "";
+background-image: url("/images/antena.jpg"), url("/images/clock.jpg");
+display: inline-block;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
 }
 .details-text{
   font-family: var(--font-family);
