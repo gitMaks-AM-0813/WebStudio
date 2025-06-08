@@ -105,12 +105,12 @@
   color: var(--accent-color);
 }
 .hero {
-    padding-top: 200px;
+    padding-top: 200px;                     
     padding-bottom: 280px;
-   background-image: url("/images/team.jpg");
+   background-color: #2F303A;
    background-repeat: no-repeat;
-width: 2000px;
-margin-left: 100px;
+
+
 }
 .hero-title{
   color: var(--title-color);
@@ -188,10 +188,7 @@ text-align: center;
 color: #212121;
 }
 
-.doing-item {
-    padding-bottom: 94px;
-   
-}
+
 .doing-list{
   list-style: none;
   
@@ -296,11 +293,8 @@ color: #757575;
   color: var(--accent-color);
 }
 
-.footer-address{
-  margin-top: 20px;
-}
 
-.footer-address-list{
+.footer-list{
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -321,4 +315,6 @@ color: #757575;
   font-size: 14px;
   text-decoration: none;
 }
- 
+ .footer-item:nth-of-type(1){
+margin-top: 20px;
+ }
