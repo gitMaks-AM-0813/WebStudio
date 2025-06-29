@@ -318,3 +318,18 @@ color: #757575;
  .footer-item:nth-of-type(1){
 margin-top: 20px;
  }
+ .icon-envelope{
+  width: 16px;
+  height: 12px;
+  margin-right: 2px;
+  color: #757575;
+ }
+.icon-envelope:hover{
+  color: #2196F3;
+}
+.icon-smartphone{
+  width: 10px;
+  height: 16px;
+ color: #757575;
+}
+
