@@ -1,0 +1,103 @@
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 2px;
+  color: #757575;
+}
+.icon-envelope:hover {
+  color: #2196f3;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  color: #757575;
+}
+
+.icon-instagram{
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+  margin-top: 28px;
+
+ display: flex;
+ gap: 12px;
+}
+.icon-twitter{
+  height: 20px;
+  width: 20px;
+ opacity: 0.5;
+ margin-top: 28px;
+}
+.icon-linkedin{
+ height: 20px;
+ width: 20px;
+ opacity: 0.5;
+ margin-top: 28px;
+}
+.icon-facebook{
+  width: 20px;
+  height: 20px;
+opacity: 0.5;
+margin-top: 28px;
+}
+.icon-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.icon-item:hover{
+background-color: #2196f3;
+width: 44px;
+height: 44px;
+border-radius: 50px;
+fill: white;
+opacity: 1 ;
+}
+.footer-icon-instagram{
+  height: 20px;
+  width: 20px;
+  margin-top: 28px;
+fill: white;
+ display: flex;
+ gap: 12px;
+}
+.footer-icon-twitter{
+  height: 20px;
+  width: 20px;
+
+ margin-top: 28px;
+ fill: white;
+}
+.footer-icon-linkedin{
+ height: 20px;
+ width: 20px;
+
+ margin-top: 28px;
+ fill: white;
+}
+.footer-icon-facebook{
+  width: 20px;
+  height: 20px;
+
+margin-top: 28px;
+fill: white;
+}
+.footer-icon-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.footer-icon-item:hover{
+background-color: #2196f3;
+width: 44px;
+height: 44px;
+border-radius: 50px;
+
+}
+// .team-item-link:hover .team-icon{
+// fill: white;
+// }
+.icon-client:hover{
+fill: #2196f3;
+}
+ 

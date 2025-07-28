@@ -1,0 +1,96 @@
+.details {
+  padding-bottom: 94px;
+}
+.details-list {
+  list-style: none;
+}
+
+.details {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.details-title-one {
+  content: "";
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.details-title-two {
+  content: "";
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.details-title-three {
+  content: "";
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.details-title-four {
+  content: "";
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.details-title-one::before {
+  content: "";
+  background: url("/images/antena.jpg") center / 270px 120px no-repeat;
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.details-title-two::before {
+  content: "";
+  background: url("/images/clock.jpg") center / 270px 120px no-repeat;
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.details-title-three::before {
+  content: "";
+  background: url("/images/comp.jpg") center / 270px 120px no-repeat;
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.details-title-four::before {
+  content: "";
+  background: url("/images/astronaut.jpg") center / 270px 120px no-repeat;
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.details-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.details-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}

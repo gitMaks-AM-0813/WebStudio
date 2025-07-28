@@ -1,0 +1,21 @@
+.doing {
+  padding-bottom: 94px;
+}
+.doing-title {
+  padding-bottom: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.doing-list {
+  list-style: none;
+}
+.doing-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
