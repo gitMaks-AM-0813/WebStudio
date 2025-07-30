@@ -659,7 +659,7 @@ a, p, ul, li, h1, h2, h3 {
   width: 16px;
   height: 12px;
   margin-right: 2px;
-  color: #757575;
+  fill: #757575;
 }
 
 .icon-envelope:hover {
@@ -669,36 +669,13 @@ a, p, ul, li, h1, h2, h3 {
 .icon-smartphone {
   width: 10px;
   height: 16px;
-  color: #757575;
+  fill: #757575;
 }
 
-.icon-instagram {
+.icon-team {
   height: 20px;
   width: 20px;
-  opacity: 0.5;
-  margin-top: 28px;
-  display: flex;
-  gap: 12px;
-}
-
-.icon-twitter {
-  height: 20px;
-  width: 20px;
-  opacity: 0.5;
-  margin-top: 28px;
-}
-
-.icon-linkedin {
-  height: 20px;
-  width: 20px;
-  opacity: 0.5;
-  margin-top: 28px;
-}
-
-.icon-facebook {
-  width: 20px;
-  height: 20px;
-  opacity: 0.5;
+  fill: #AFB1B8;
   margin-top: 28px;
 }
 
@@ -714,37 +691,15 @@ a, p, ul, li, h1, h2, h3 {
   height: 44px;
   border-radius: 50px;
   fill: white;
-  opacity: 1;
 }
 
-.footer-icon-instagram {
+.footer-icon-team {
   height: 20px;
   width: 20px;
   margin-top: 28px;
   fill: white;
   display: flex;
   gap: 12px;
-}
-
-.footer-icon-twitter {
-  height: 20px;
-  width: 20px;
-  margin-top: 28px;
-  fill: white;
-}
-
-.footer-icon-linkedin {
-  height: 20px;
-  width: 20px;
-  margin-top: 28px;
-  fill: white;
-}
-
-.footer-icon-facebook {
-  width: 20px;
-  height: 20px;
-  margin-top: 28px;
-  fill: white;
 }
 
 .footer-icon-list {
@@ -762,6 +717,32 @@ a, p, ul, li, h1, h2, h3 {
 
 .icon-client:hover {
   fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-second-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-third-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-fourth-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-fifth-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.icon-sixth-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
 }
 
 .team-title {
