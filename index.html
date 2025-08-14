@@ -75,8 +75,35 @@
           <!-- Основний заголовок та кнопка -->
            
           <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
-          
+          <button class="hero-button" type="button"onclick="openModal()">Замовити послугу</button>
+          <script src="modal.js">
+
+          </script>
+  <div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">×</button>
+    <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+
+    <label class="label">Ім'я</label>
+    <input class="input" type="text" placeholder="">
+
+    <label class="label">Телефон</label>
+    <input class="input" type="tel" placeholder="">
+
+    <label class="label">Пошта</label>
+    <input class="input" type="email" placeholder="">
+
+    <label class="label">Коментар</label>
+    <textarea class="input" placeholder="Введіть текст"></textarea>
+
+    <div class="checkbox">
+      <input type="checkbox" id="agree" checked>
+      <label class="label-agree" for="agree">Погоджуюся з розсилкою та приймаю <a class="modal-link" href="#">Умови договору</a></label>
+    </div>
+
+    <button class="modal-button">Відправити</button>
+  </div>
+</div>
         </div>
       </section>
       <section class="details">
@@ -413,3 +440,4 @@
     </footer> 
   </body>
 </html>
+
