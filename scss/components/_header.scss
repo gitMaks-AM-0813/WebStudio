@@ -64,10 +64,26 @@
 .header-phone:hover {
   color: var(--accent-color);
 }
-.header-item:hover::after {
-  content: "";
-  width: 48px;
-  height: 4px;
-  background-color: #2196f3;
-  display: inline-block;
+.header-link::after {
+content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+.header-link{
+  position: relative;
+    text-decoration: none;
+    cursor: default; 
+    transition: color 0.3s ease;
+}
+.header-link:hover{
+  color: var(--accent-color);
+}
+.header-link:hover::after{
+  background-color: var(--accent-color);
 }
